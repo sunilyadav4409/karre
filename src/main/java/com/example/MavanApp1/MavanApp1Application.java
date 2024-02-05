@@ -10,4 +10,9 @@ public class MavanApp1Application {
 		SpringApplication.run(MavanApp1Application.class, args);
 	}
 
+	public int add(int a, int b) {
+		int c;
+		c=a+b;
+		return c;
+	}
 }
