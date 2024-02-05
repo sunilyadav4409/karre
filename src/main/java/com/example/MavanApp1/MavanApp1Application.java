@@ -12,14 +12,14 @@ public class MavanApp1Application {
 
 	public int add(int a, int b) {
 		int c;
-		c=a+b;
+		c = a + b;
 		return c;
 	}
-         public String wecomeController{
 
-           return "welcome to ashokit";
-           }
+	public String wecomeController()
+	{
 
-
+		return "welcome to ashokit";
+	}
 
 }
