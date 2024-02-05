@@ -15,4 +15,11 @@ public class MavanApp1Application {
 		c=a+b;
 		return c;
 	}
+         public String wecomeController{
+
+           return "welcome to ashokit";
+           }
+
+
+
 }
